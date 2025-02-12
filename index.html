@@ -9,12 +9,17 @@
 </head>
 <body>
     <h2>My First Web Page</h2>
-    <p>My First Paragraph.</p>
+    <p>A <b>JavaScript program</b> is a list of <b>statements</b> to be executed by a computer.</p>
 
-    <button onclick="window.print()">Print this page</button>
+    <p id="para"></p>
     
     <script>
-    
+    let x,y,z;  // Statement 1
+    x = 5;      // Statement 2
+    y = 10;     // Statement 3
+    z = x + y;  // Statement 4
+
+    document.getElementById("para").innerHTML = "the value of z is " + z+".";
     </script>
     
 </body>

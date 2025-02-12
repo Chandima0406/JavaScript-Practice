@@ -7,9 +7,12 @@
 </head>
 <body>
     <h2>What can java script do</h2>
-    <P id="parr">javascript can change style of an HTML elemwnt.</P>
-    <button onclick="document.getElementById('parr').style.display='none'">Hide</button>
-    <button onclick="document.getElementById('parr').style.display=''">visible</button>
+    <P id="parr"></P>
+
+    <script>
+        document.getElementById("parr").innerHTML = "my first java script";
+    </script>
+    
     
 </body>
 </html>

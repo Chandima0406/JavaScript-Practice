@@ -15,9 +15,15 @@
     <p id="demo"></p>
     
     <script>
-    carName = "volvo";
-    document.getElementById("demo").innerHTML=carName;  //can use the variable before it is declared
-    var carName;
+    // Create an Array
+    const car = ["toyota","Nissan","volvo"];
+    //change an element
+    car[0] = "Bmw";
+    //add an element
+    car.push("benz");
+    //display array
+    document.getElementById("demo").innerHTML=car;
+
     </script>
     
 </body>

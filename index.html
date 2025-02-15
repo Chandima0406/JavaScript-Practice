@@ -15,16 +15,9 @@
     <p id="demo"></p>
     
     <script>
-    let x = 2;   // Allowed
-    
-    {
-      let x = 3;   // Allowed
-    }
-    
-    {
-      let x = 4;   // Allowed
-    }
-    document.getElementById("demo").innerHTML = x;
+    carName = "volvo";
+    document.getElementById("demo").innerHTML=carName;  //can use the variable before it is declared
+    var carName;
     </script>
     
 </body>

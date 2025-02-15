@@ -15,14 +15,18 @@
     <p id="demo"></p>
     
     <script>
-    // Create an Array
-    const car = ["toyota","Nissan","volvo"];
-    //change an element
-    car[0] = "Bmw";
-    //add an element
-    car.push("benz");
-    //display array
-    document.getElementById("demo").innerHTML=car;
+    const car ={
+        type : "nissan",
+        model : "500",
+        color:"white"
+    };
+
+    // change a property 
+    car.color="red";
+    //add a property
+    car.owner="Chandima";
+
+    document.getElementById("demo").innerHTML="the owner is " + car.owner;
 
     </script>
     

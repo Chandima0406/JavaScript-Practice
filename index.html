@@ -13,12 +13,49 @@
     <p>Redeclaring a variable with <b>let</b>, in another scope, or in another block, is allowed:</p>
     
     <p id="demo"></p>
+    <p id="demo1"></p>
+    <p id="demo2"></p>
+    <p id="demo3"></p>
+    <p id="demo4"></p>
+    <p id="demo5"></p>
     
     <script>
-   let text1 = "what a very ";
-   text1 +="nice day.";
+    //Multiplying
+    let x = 5;
+    let y = 2;
+    let z = x * y;
 
-    document.getElementById("demo").innerHTML=text1;
+    //Dividing
+    let a =10;
+    let b =2;
+    let c = a/b;
+
+    //Remainder
+    let d = 50;
+    let e = 8;
+    let f = d%e;
+
+    //Incrementing
+    let g = 9;
+    g++;
+    let h = g;
+
+    //Decrementing
+    let i = 10;
+    i--;
+    let j = i;
+
+    //Exponentiation
+    let k =5;
+    let l = k**2;
+
+
+    document.getElementById("demo").innerHTML= "Multiplying "+z;
+    document.getElementById("demo1").innerHTML="Dividing "+c;
+    document.getElementById("demo2").innerHTML="Remainder "+f;
+    document.getElementById("demo3").innerHTML="Incrementing "+h;
+    document.getElementById("demo4").innerHTML="Decrementing "+j;
+    document.getElementById("demo5").innerHTML="Exponentiation "+l;
 
     </script>
     

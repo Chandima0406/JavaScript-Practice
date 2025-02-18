@@ -8,56 +8,53 @@
    
 </head>
 <body>
-    <h2>The assignment operator += can concatenate strings.</h2>
-
-    <p>Redeclaring a variable with <b>let</b>, in another scope, or in another block, is allowed:</p>
-    
-    <p id="demo"></p>
-    <p id="demo1"></p>
-    <p id="demo2"></p>
-    <p id="demo3"></p>
-    <p id="demo4"></p>
-    <p id="demo5"></p>
-    
+    <h1>JavaScript Assignments</h1>
+    <h2>Simple Assignment</h2><br>
+    <p id="para"></p>
+    <p id="para1"></p>
+    <p id="para2"></p>
+    <p id="para3"></p>
+    <p id="para4"></p>
+    <p id="para5"></p>
+    <p id="para6"></p>
+    <p id="para7"></p>
     <script>
-    //Multiplying
-    let x = 5;
-    let y = 2;
-    let z = x * y;
+    
+    let y =10;
 
-    //Dividing
-    let a =10;
-    let b =2;
-    let c = a/b;
+    let a = 5;
+    let b = 10 + a;
 
-    //Remainder
-    let d = 50;
-    let e = 8;
-    let f = d%e;
+    let c = 10
+    c += 5;
 
-    //Incrementing
-    let g = 9;
-    g++;
-    let h = g;
+    let text = "Hello";
+    text += "World";
 
-    //Decrementing
-    let i = 10;
-    i--;
-    let j = i;
+    let d = 10;
+    d -= 6;
 
-    //Exponentiation
-    let k =5;
-    let l = k**2;
+    let e = 6;
+    e *=20;
 
+    let f = 6;
+    f**= 5;
 
-    document.getElementById("demo").innerHTML= "Multiplying "+z;
-    document.getElementById("demo1").innerHTML="Dividing "+c;
-    document.getElementById("demo2").innerHTML="Remainder "+f;
-    document.getElementById("demo3").innerHTML="Incrementing "+h;
-    document.getElementById("demo4").innerHTML="Decrementing "+j;
-    document.getElementById("demo5").innerHTML="Exponentiation "+l;
+    let g = 90;
+    g/=9;
 
+    document.getElementById("para").innerHTML="Y is: " + y;
+    document.getElementById("para1").innerHTML= "B is: " + b;
+    document.getElementById("para2").innerHTML= "C is: " + c;
+    document.getElementById("para3").innerHTML= "text is: " + text;
+    document.getElementById("para4").innerHTML= "D is: " + d;
+    document.getElementById("para5").innerHTML= "E is: " + e;
+    document.getElementById("para6").innerHTML= "F is: " + f;
+    document.getElementById("para7").innerHTML= "G is: " + g;
     </script>
+    
+
+  
     
 </body>
 </html>
